@@ -1,0 +1,55 @@
+body {
+    background-image : url("./Elevador-Sister_Location.webp");
+    background-size: 100vw;
+}
+h1 {
+    color : #bc0a0a; 
+    text-align: center;
+    font-size: 1cm;
+    font-family: 'horreur.style';
+}
+.Play{
+    color: gold;
+    background-color: transparent;
+    margin-left: 46vw;
+    margin-top: 7vw;
+    height: 5vw;
+    width: 7vw;
+    border-color: transparent;
+    font-size: x-large;
+}
+a{
+    font-size: x-large;
+}
+.Home{
+    background-color: transparent;
+    border: none;
+    color: rgb(215, 11, 11);
+    font-size: large;
+}
+.salledejeu{
+    background-color: transparent;
+    border: none;
+    color: rgb(232, 35, 17);
+    font-size: large;
+}
+header{
+    display: flex;
+    margin-top: 2vw;
+    margin-left: 3vw;
+}
+@font-face{
+    font-family: 'horreur.style';
+    src: url(../font/Bloody\ terror\ TTF.ttf)
+}
+
+.Home:hover{
+    color: greenyellow;
+}
+.salledejeu:hover{
+    color: greenyellow;
+}
+
+.Play:hover{
+    color: greenyellow;
+}

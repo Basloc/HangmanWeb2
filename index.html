@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/styles.css">
+    
+    <title>essai</title>
+</head>
+<body>  
+    <div class="essai">
+        <p>try : {{.Try}} </p>
+        <p>mot : {{.HiddenWord}}</p>
+        <p>Already use : {{.Blacklist}}</p>
+    </div>
+    <div class="try">g</div>
+    <div class="ui">
+        {{if eq .Try 9}}
+            test 9
+        {{else if eq .Try 8}}
+        <p>test 8</p>
+        {{end}} 
+    </div>
+    
+    <div class="HandUnit">
+        <div class="touche1">
+            <form method="post" action="/calcul">
+                <input type="text" name="letter" placeholder="letter">
+                <input class="lettre" type="submit" type="reset" value="A" formmethod="post">
+                <input class="lettre" type="submit" value="B" formmethod="post">
+                <input class="lettre" type="submit" value="C" formmethod="post">
+                <input class="lettre" type="submit" value="D" formmethod="post">
+                <input class="lettre" type="submit" value="E" formmethod="post">
+                <input class="lettre" type="submit" value="F" formmethod="post">
+                
+            <div class="touche2">
+                <input class="lettre" type="submit" value="G" formmethod="post">
+                <input class="lettre" type="submit" value="H" formmethod="post">
+                <input class="lettre" type="submit" value="I" formmethod="post">
+                <input class="lettre" type="submit" value="J" formmethod="post">
+                <input class="lettre" type="submit" value="K" formmethod="post">
+                <input class="lettre" type="submit" value="L" formmethod="post">
+            </div>
+            <div class="touche3">
+                <input class="lettre" type="submit" value="M" formmethod="post">
+                <input class="lettre" type="submit" value="N" formmethod="post">
+                <input class="lettre" type="submit" value="O" formmethod="post">
+                <input class="lettre" type="submit" value="P" formmethod="post">
+                <input class="lettre" type="submit" value="Q" formmethod="post">
+                <input class="lettre" type="submit" value="R" formmethod="post">
+            </div>
+            <div clase="touche4">
+                <input class="lettre" type="submit" value="S" formmethod="post">
+                <input class="lettre" type="submit" value="T" formmethod="post">
+                <input class="lettre" type="submit" value="U" formmethod="post">
+                <input class="lettre" type="submit" value="V" formmethod="post">
+                <input class="lettre" type="submit" value="W" formmethod="post">
+                <input class="lettre" type="submit" value="X" formmethod="post">
+            </div>
+            <div class="touche5">
+                <input class="lettre" type="submit" value="Y" formmethod="post">
+                <input class="word" type="submit" value="ENTER" formmethod="post">
+                <input class="word" type="submit" value="DEL" formmethod="post">
+                <input class="lettre" type="submit" value="Z" formmethod="post">
+            </div>  
+        </form>
+        </div>
+    </div>
+    
+</body>
+
+
+
+</html>

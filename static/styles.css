@@ -1,0 +1,158 @@
+
+.essai{
+  color: red;
+  display: flex ;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 0px;
+  width: 250px;
+  margin-top:330px;
+  margin-left: 1600px;
+}
+.hang {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  z-index: 20;
+  background-color: transparent;
+  margin-left: 750px;
+  margin-bottom: 300px;
+}
+.hang9{
+  margin-left: 100px;
+}
+.img1{
+  position: fixed;
+  background-color: transparent;
+  height: 150px;
+}
+.img2{
+  position: fixed;
+  background-color: transparent;
+  height: 150px;
+  margin-top: 110px;
+  margin-left: -10px;
+}
+
+.img3{
+  position: fixed;
+  background-color: transparent;
+  height: 150px;
+  margin-top: 130px;
+  margin-left: -25px;
+}
+.img4{
+  position: fixed;
+  background-color: transparent;
+  height: 120px;
+  margin-top: 140px;
+  margin-left: -45px;
+}
+.img5{
+  position: fixed;
+  background-color: transparent;
+  height: 150px;
+  margin-top: 200px;
+  margin-left: -40px;
+}
+.img6{
+  position: fixed;
+  background-color: transparent;
+  height: 150px;
+  margin-top: 200px;
+  margin-left: 15px;
+}
+.img7{
+  position: fixed;
+  background-color: transparent;
+  height: 150px;
+  margin-top: 180px;
+  margin-left: -200px;
+}
+.img8{
+  position: fixed;
+  background-color: transparent;
+  height: 150px;
+  margin-top: 180px;
+  margin-left: 350px;
+}
+.Unit{
+  position: fixed;
+  margin-left: 1300px;
+  margin-top: 50px;
+}
+.HandUnit {
+    z-index: 1;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    width: 500px;
+    margin-top: -400px;
+    margin-left: 140px;
+}
+
+.touche1 {
+    display: inline-block;   
+  text-align: center;
+    padding: 10px;
+    width: 300px;
+}
+
+.touche2 {
+    display: inline-block;   
+    text-align: center;
+    padding: 10px;
+    width: 300px;  
+}
+
+.touche3 {
+    display: inline-block;   
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+}
+
+.touche4 {
+    display: inline-block;   
+    text-align: left;
+    padding: 10px;
+    width: 260px;
+
+}
+
+.touche5 {
+    display: inline-block;   
+    text-align: center;
+    padding: 10px;
+    width: 260px;
+
+} 
+
+.lettre {
+  border-radius: 5px;
+  font-size: x-large;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border-color: rgb(46, 221, 46);
+  color: rgb(46, 221, 46);
+} 
+
+
+
+.word {
+    border-radius: 5px;
+    font-size: x-large;
+    background-color: transparent;
+    border-color: rgb(46, 221, 46);
+    color: rgb(46, 221, 46);
+} 
+
+.word:hover {
+    background-color: green;
+}
+
+.lettre:hover {
+    background-color: green;
+}

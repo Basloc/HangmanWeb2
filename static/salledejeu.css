@@ -1,0 +1,33 @@
+body{ background-image: url("./Modulo_de_control-Sister_Location.webp");
+    background-size: 100vw;
+}
+/* img{
+    width: 20vw;
+    height: 20vw;
+    margin-top: 25vw;
+    margin-left: 77vw;
+} */
+.Home{
+    background-color: transparent;
+    border: none;
+    color:azure;
+    font-size: large;
+}
+.salledejeu{
+    background-color: transparent;
+    border: none;
+    color: azure;
+    font-size: large;
+}
+header{
+    display: flex;
+    margin-top: 2vw;
+    margin-left: 3vw;
+}
+.Home:hover{
+    color: greenyellow;
+}
+.salledejeu:hover{
+    color: greenyellow;
+}
+
